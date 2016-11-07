@@ -34,44 +34,34 @@ function check(){
 	}
 }
 
-var secondHero = "Hulk";
+var avenger = "Hulk";
 
 function avengersAssemble(avenger){
-	if(avenger ==  "Hulk"){
+	if(avenger == "Hulk"){
 		console.log(avenger + "want friend")
 	}else("Sorry, you are not needed for this mission")
 }
 
-avengersAssemble("Hulk");
+avengersAssemble(avenger);
 
 var lights = true;
 
 function luminus(){
-	if(lights = true){
+	if(lights == true){
 		console.log("And then there was light")
 	}else{"Lights out"}
 }
-
-// create a variable named carType and set the value to Toyota, Lamborghini, or Tesla as a string. 
-// create a variable named color and set the value to red, blue, or black as a string 
-// create a variable named num and set the value to an integer
-//create a conditional and check for the following: 
-// check for a blue Toyota 
-// check for a red Lamborghini 
-// check for a black Tesla 
-//console log "We have" and your variables. for each condition. 
-// if none of the conditions are true console log this sentence with your variables,"We don't have any blue Toyotas in stock"
 
 var carType = "Toyota";
 var color = "Black";
 var num = 2;
 
-function(){
-	if(carType == Toyota, color == blue){
+function muhCar(){
+	if(carType == Toyota) !! (color == blue){
 		console.log("We have " + color + " " + carType)
-	}if(carType == Lamborghini, color == red){
+	}if(carType == Lamborghini) !! (color == red){
 		console.log("We have " + color + " " + carType)
-	}if(carType == Tesla, color == black){
+	}if(carType == Tesla) !! (color == black){
 		console.log("We have " + color + " " + carType)
 	}else{
 		console.log("We don't have any " + color + " " + carType + "s in stock")
