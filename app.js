@@ -5,7 +5,7 @@ var weapon = "live crocodile";
 var pronoun;
 var xp;
 
-function gender(){
+function trigger(){
 	if(gender = "Man"){pronoun = "His"}
 }
 
@@ -15,16 +15,16 @@ function experience() {
 			else if(age > 40){xp = "has live through many epic battles"}
 }
 
-console.log(Hero + " is our lovable hero, who " + xp + " with his trusty " + weapon)
+console.log(hero + " is our lovable hero, who " + xp + " with his trusty " + weapon)
 
 var count;
 var animal = "Tasmanian Gerbil";
 
 function animalHouse(a,b){
-	{count = a + b}{
-	animalHouse(1,2)
-	}
+	{count = a + b}
 }
+
+animalHouse(1,2)
 
 function check(){
 	if(count > 2){
@@ -34,11 +34,13 @@ function check(){
 	}
 }
 
+check();
+
 var avenger = "Hulk";
 
 function avengersAssemble(avenger){
 	if(avenger == "Hulk"){
-		console.log(avenger + "want friend")
+		console.log(avenger + " want friend")
 	}else("Sorry, you are not needed for this mission")
 }
 
@@ -47,23 +49,27 @@ avengersAssemble(avenger);
 var lights = true;
 
 function luminus(){
-	if(lights == true){
+	if(lights === true){
 		console.log("And then there was light")
-	}else{"Lights out"}
+	}else("Lights out")
 }
+
+luminus();
 
 var carType = "Toyota";
 var color = "Black";
 var num = 2;
 
 function muhCar(){
-	if(carType == Toyota) !! (color == blue){
+	if(carType == "Toyota" && color == "blue"){
 		console.log("We have " + color + " " + carType)
-	}if(carType == Lamborghini) !! (color == red){
+	}if(carType == "Lamborghini" && color == "red"){
 		console.log("We have " + color + " " + carType)
-	}if(carType == Tesla) !! (color == black){
+	}if(carType == "Tesla" && color == "black"){
 		console.log("We have " + color + " " + carType)
 	}else{
 		console.log("We don't have any " + color + " " + carType + "s in stock")
 	}
 }
+
+muhCar();
