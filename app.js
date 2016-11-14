@@ -21,7 +21,7 @@ var count;
 var animal = "Tasmanian Gerbil";
 
 function animalHouse(a,b){
-	{count = a + b}
+	(count = a + b)
 }
 
 animalHouse(1,2)
@@ -51,7 +51,9 @@ var lights = true;
 function luminus(){
 	if(lights === true){
 		console.log("And then there was light")
-	}else("Lights out")
+	}else{
+		console.log("Lights out")
+	}
 }
 
 luminus();
@@ -63,9 +65,9 @@ var num = 2;
 function muhCar(){
 	if(carType == "Toyota" && color == "blue"){
 		console.log("We have " + color + " " + carType)
-	}if(carType == "Lamborghini" && color == "red"){
+	}else if(carType == "Lamborghini" && color == "red"){
 		console.log("We have " + color + " " + carType)
-	}if(carType == "Tesla" && color == "black"){
+	}else if(carType == "Tesla" && color == "black"){
 		console.log("We have " + color + " " + carType)
 	}else{
 		console.log("We don't have any " + color + " " + carType + "s in stock")
