@@ -6,7 +6,9 @@ var pronoun;
 var xp;
 
 function trigger(){
-	if(gender = "Man"){pronoun = "His"}
+	if(gender = "Man"){
+		pronoun = "His"
+	}
 }
 
 function experience() {
@@ -75,3 +77,4 @@ function muhCar(){
 }
 
 muhCar();
+
